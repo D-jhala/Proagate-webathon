@@ -1,0 +1,112 @@
+html,
+body {
+    background-image: url('bgimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: navy;
+    font-size: large;
+    padding: 15px 20px;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.heading1 {
+    font-color: crimson;
+    font-size: 36px;
+    padding-left: 80px;
+    font-family: "BlinkMacSystemFont";
+}
+
+.heading2 {
+    font-color: crimson;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-left: 80px;
+    font-family: "BlinkMacSystemFont";
+}
+
+.heading3 {
+    font-color: crimson;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-left: 80px;
+    font-family: 'Yeon Sung', ;
+}
+
+.lesson {
+    float: left;
+    padding: 25px;
+}
+
+.lesson-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.p1,
+.p2,
+.p3,
+.p4 {
+    position: absolute;
+    font-size: 25px;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+.p1 {
+    top: 90px;
+    padding: 20px 80px;
+}
+
+.p2 {
+    top: 90px;
+    padding: 15px 130px;
+}
+
+.p3 {
+    top: 90px;
+    padding: 25px 90px;
+}
+
+.p4 {
+    top: 90px;
+    padding: 25px 150px;
+}
+
+.lesson img {
+    height: 300px;
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
